@@ -19,7 +19,7 @@ UrbanFlux reimagines traffic signaling using **computer vision and deep learning
 * Real-time vehicle detection via YOLOv3
 * Adaptive traffic light durations per lane
 * Traffic data logging for future optimization
-* Priority to high-density/critical lanes (e.g., hospitals)
+* Priority to high-density/critical lanes
 * No external sensors—only vision-based input
 
 ---
