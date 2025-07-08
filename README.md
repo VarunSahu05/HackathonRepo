@@ -37,7 +37,6 @@ Start → System Init → Capture Live Feed → YOLOv3 Detection → Vehicle Cou
 1. **Camera Module**: Captures live video feeds per lane
 2. **YOLOv3 Engine**: Detects and counts vehicles in each frame
 3. **Traffic Signal Logic**:
-
    * Calculates green time dynamically (10–60s)
    * Gives less time to empty lanes, more to busy ones
 4. **Signal Update Engine**: Updates hardware/controller signals
@@ -77,7 +76,7 @@ Start → System Init → Capture Live Feed → YOLOv3 Detection → Vehicle Cou
 
 ---
 
-## ❌ Showstoppers (Critical Failures)
+## ❌ Critical Failures
 
 | Failure Type          | Impact                                      |
 | --------------------- | ------------------------------------------- |
@@ -100,12 +99,9 @@ Start → System Init → Capture Live Feed → YOLOv3 Detection → Vehicle Cou
 
 ## 📌 Setup (Basic Overview)
 
-> Full source code and detailed setup instructions will be available in the repository.
-
 * Python (>= 3.7)
 * OpenCV
-* YOLOv3 weights + config
-* GPU-enabled system (for live YOLO inference)
+* YOLOv3 + config
 * Video streams or IP cameras
 * Traffic light controller (simulation or hardware interface)
 
